@@ -404,6 +404,19 @@
         }
         
         @media (max-width: 900px) {
+            /* 1. 상단바(Header) 조절 */
+    header {
+        padding: 10px 0; /* 상하 여백 축소 */
+    }
+    .logo {
+        font-size: 1.2rem; /* 로고 크기 축소 */
+    }
+    .nav-links {
+        gap: 10px; /* 메뉴 간격 축소 */
+    }
+    .nav-links a {
+        font-size: 0.75rem; /* 메뉴 글씨 축소 */
+    }
         .hero-choices, .demo-layout, .info-content, .feature-grid { 
             grid-template-columns: 1fr; 
             gap: 30px;
