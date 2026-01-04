@@ -1,12 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>MarketLink</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
+<!-- HERO -->
+<section class="hero">
   <h1>MarketLink</h1>
-  <p>Connecting students and local businesses.</p>
-  <p>Scan & participate in our survey.</p>
+  <p class="subtitle">
+    Connecting local businesses with student & freelance creators
+  </p>
+  <p class="desc">
+    마켓링크는 자영업자와 학생·프리랜서를 연결하는<br>
+    실무형 SNS 마케팅 매칭 플랫폼입니다.
+  </p>
+</section>
+
+<!-- WHY -->
+<section class="why">
+  <h2>Why MarketLink?</h2>
+  <div class="why-grid">
+    <div class="why-card">
+      <h3>💸 Expensive Agencies</h3>
+      <p>
+        Many small business owners find traditional marketing agencies
+        too expensive and complicated.
+      </p>
+      <p class="kr">
+        기존 마케팅 대행사는 비용 부담이 큽니다.
+      </p>
+    </div>
+
+    <div class="why-card">
+      <h3>🎓 Hidden Talent</h3>
+      <p>
+        Students and freelancers have strong skills
+        but limited real-world opportunities.
+      </p>
+      <p class="kr">
+        학생과 프리랜서의 실무 역량은 충분하지만 기회가 부족합니다.
+      </p>
+    </div>
+
+    <div class="why-card">
+      <h3>🤝 Win-Win Solution</h3>
+      <p>
+        MarketLink connects both sides for affordable,
+        flexible marketing collaboration.
+      </p>
+      <p class="kr">
+        마켓링크는 서로에게 이익이 되는 연결을 제공합니다.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- APP DEMO -->
+<section class="app">
+  <h2>App Experience</h2>
+  <p class="center">
+    Select a role to explore how MarketLink works
+  </p>
+
+  <div class="role-buttons">
+    <button onclick="showScreen('owner')">Business Owner</button>
+    <button onclick="showScreen('student')">Student / Freelancer</button>
+  </div>
+
+  <!-- SCREENS -->
+  <div class="screen-container">
+
+    <div id="owner" class="screen active">
+      <h3>Business Owner View</h3>
+      <img src="assets/owner.png" alt="Owner Screen" />
+      <ul>
+        <li>Post marketing requests</li>
+        <li>Browse student & freelancer profiles</li>
+        <li>Chat and manage projects easily</li>
+      </ul>
+    </div>
+
+    <div id="student" class="screen">
+      <h3>Student / Freelancer View</h3>
+      <img src="assets/student.png" alt="Student Screen" />
+      <ul>
+        <li>Explore real business projects</li>
+        <li>Apply with your skills & portfolio</li>
+        <li>Gain experience and income</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- CHAT -->
+<section class="chat">
+  <h2>1:1 Communication</h2>
+  <p class="center">
+    Direct chat between business owners and creators
+  </p>
+  <img src="assets/chat.png" alt="Chat Screen" />
+</section>
+
+<!-- SURVEY -->
+<section class="survey">
+  <h2>Help Us Improve MarketLink</h2>
+  <p>
+    Scan the QR code and participate in our survey
+  </p>
+  <p class="kr">
+    QR을 스캔하고 설문조사에 참여해주세요
+  </p>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>MarketLink · Capstone Design Project</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
